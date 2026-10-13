@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ярослав Гуров — сайт-визитка</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <span class="logo">YG</span>
+    <button id="theme-toggle" class="btn" type="button">Тёмная тема</button>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <img class="avatar" src="https://github.com/yarikgurov.png" alt="Фото Ярослава Гурова" width="160" height="160">
+      <div>
+        <h1>Ярослав Гуров</h1>
+        <p class="subtitle">Студент группы К841 · разработчик веб-приложений</p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Обо мне</h2>
+      <p>Учусь на специальности «Информационные системы и программирование» в колледже при СПбГУТ.
+        Занимаюсь вёрсткой и разработкой веб-приложений на HTML, CSS, JavaScript и Node.js.</p>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h3>Навыки</h3>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>Node.js, Express</li>
+          <li>PostgreSQL, SQL</li>
+          <li>Git, GitHub Actions</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Проекты</h3>
+        <ul>
+          <li>Offline City — браузерная игра</li>
+          <li>REST API с авторизацией JWT</li>
+          <li>Вход через GitHub (OAuth 2.0)</li>
+        </ul>
+      </div>
+      <div class="card counter">
+        <h3>Счётчик</h3>
+        <p class="count" id="count">0</p>
+        <button id="like" class="btn" type="button">+1</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">© 2026 Ярослав Гуров</footer>
+  <script src="script.js"></script>
+</body>
+</html>
